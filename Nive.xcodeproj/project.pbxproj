@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C3F4CB21960E0E100CF1532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C3F4CB01960E0E100CF1532 /* Main.storyboard */; };
+		6C3F4CB41960E36800CF1532 /* JVPersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3F4CB31960E36800CF1532 /* JVPersonCell.swift */; };
+		6C3F4CB61960E72D00CF1532 /* JVMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3F4CB51960E72D00CF1532 /* JVMasterViewController.swift */; };
+		6C3F4CB81960E79800CF1532 /* JVCommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3F4CB71960E79800CF1532 /* JVCommunityViewController.swift */; };
+		6C3F4CBA1960E8F300CF1532 /* JVLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3F4CB91960E8F300CF1532 /* JVLoginViewController.swift */; };
+		6C3F4CBC1960E99B00CF1532 /* JVDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3F4CBB1960E99B00CF1532 /* JVDetailViewController.swift */; };
+		6C4FEFFF198621D100C03361 /* JiveFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4FEFFE198621D100C03361 /* JiveFactory.swift */; };
+		6C7792E7196139CA0030C95F /* JVEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7792E6196139CA0030C95F /* JVEditingViewController.swift */; };
+		6CABA7C3197F46FD00E4F1D6 /* JVWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CABA7C2197F46FD00E4F1D6 /* JVWebViewController.swift */; };
+		6CB1F6CA195C536D00D505BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1F6C9195C536D00D505BF /* AppDelegate.swift */; };
+		6CB1F6D1195C536D00D505BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1F6D0195C536D00D505BF /* Images.xcassets */; };
+		6CB1F6DD195C536D00D505BF /* NiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1F6DC195C536D00D505BF /* NiveTests.swift */; };
+		6CBCC65B196124E30052EBBC /* JVBlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBCC65A196124E30052EBBC /* JVBlogViewController.swift */; };
+		A3A4ADCEF77E4E72AE9D2EBC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD0BD91E73549CAB553F582 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CB1F6D7195C536D00D505BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CB1F6BC195C536D00D505BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CB1F6C3195C536D00D505BF;
+			remoteInfo = Nive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2677A1351122443E84A5C8B2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		6BD0BD91E73549CAB553F582 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3F4CB11960E0E100CF1532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Nive/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C3F4CB31960E36800CF1532 /* JVPersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVPersonCell.swift; sourceTree = "<group>"; };
+		6C3F4CB51960E72D00CF1532 /* JVMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVMasterViewController.swift; sourceTree = "<group>"; };
+		6C3F4CB71960E79800CF1532 /* JVCommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVCommunityViewController.swift; sourceTree = "<group>"; };
+		6C3F4CB91960E8F300CF1532 /* JVLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVLoginViewController.swift; sourceTree = "<group>"; };
+		6C3F4CBB1960E99B00CF1532 /* JVDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVDetailViewController.swift; sourceTree = "<group>"; };
+		6C4FEFFE198621D100C03361 /* JiveFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiveFactory.swift; sourceTree = "<group>"; };
+		6C7792E6196139CA0030C95F /* JVEditingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVEditingViewController.swift; sourceTree = "<group>"; };
+		6CABA7C2197F46FD00E4F1D6 /* JVWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVWebViewController.swift; sourceTree = "<group>"; };
+		6CB1F6C4195C536D00D505BF /* Nive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB1F6C8195C536D00D505BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB1F6C9195C536D00D505BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CB1F6D0195C536D00D505BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CB1F6D6195C536D00D505BF /* NiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB1F6DB195C536D00D505BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB1F6DC195C536D00D505BF /* NiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiveTests.swift; sourceTree = "<group>"; };
+		6CB1F6E6195C559F00D505BF /* Nive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nive-Bridging-Header.h"; sourceTree = "<group>"; };
+		6CBCC65A196124E30052EBBC /* JVBlogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVBlogViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CB1F6C1195C536D00D505BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A4ADCEF77E4E72AE9D2EBC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB1F6D3195C536D00D505BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CB1F6BB195C536D00D505BF = {
+			isa = PBXGroup;
+			children = (
+				6CB1F6C6195C536D00D505BF /* Nive */,
+				6CB1F6D9195C536D00D505BF /* NiveTests */,
+				6CB1F6C5195C536D00D505BF /* Products */,
+				2677A1351122443E84A5C8B2 /* Pods.xcconfig */,
+				D8EA7497E61148A5AC84956D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CB1F6C5195C536D00D505BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1F6C4195C536D00D505BF /* Nive.app */,
+				6CB1F6D6195C536D00D505BF /* NiveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CB1F6C6195C536D00D505BF /* Nive */ = {
+			isa = PBXGroup;
+			children = (
+				6C4FEFFE198621D100C03361 /* JiveFactory.swift */,
+				6C3F4CB01960E0E100CF1532 /* Main.storyboard */,
+				6C3F4CBB1960E99B00CF1532 /* JVDetailViewController.swift */,
+				6CABA7C2197F46FD00E4F1D6 /* JVWebViewController.swift */,
+				6CBCC65A196124E30052EBBC /* JVBlogViewController.swift */,
+				6C7792E6196139CA0030C95F /* JVEditingViewController.swift */,
+				6C3F4CB91960E8F300CF1532 /* JVLoginViewController.swift */,
+				6C3F4CB71960E79800CF1532 /* JVCommunityViewController.swift */,
+				6C3F4CB51960E72D00CF1532 /* JVMasterViewController.swift */,
+				6CB1F6C9195C536D00D505BF /* AppDelegate.swift */,
+				6CB1F6D0195C536D00D505BF /* Images.xcassets */,
+				6CB1F6C7195C536D00D505BF /* Supporting Files */,
+				6CB1F6E6195C559F00D505BF /* Nive-Bridging-Header.h */,
+				6C3F4CB31960E36800CF1532 /* JVPersonCell.swift */,
+			);
+			path = Nive;
+			sourceTree = "<group>";
+		};
+		6CB1F6C7195C536D00D505BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1F6C8195C536D00D505BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CB1F6D9195C536D00D505BF /* NiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1F6DC195C536D00D505BF /* NiveTests.swift */,
+				6CB1F6DA195C536D00D505BF /* Supporting Files */,
+			);
+			path = NiveTests;
+			sourceTree = "<group>";
+		};
+		6CB1F6DA195C536D00D505BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1F6DB195C536D00D505BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8EA7497E61148A5AC84956D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BD0BD91E73549CAB553F582 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CB1F6C3195C536D00D505BF /* Nive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB1F6E0195C536D00D505BF /* Build configuration list for PBXNativeTarget "Nive" */;
+			buildPhases = (
+				0F0DB3238AB64296922F6D00 /* Check Pods Manifest.lock */,
+				6CB1F6C0195C536D00D505BF /* Sources */,
+				6CB1F6C1195C536D00D505BF /* Frameworks */,
+				6CB1F6C2195C536D00D505BF /* Resources */,
+				7EEA14C2C46C457FBD63FECC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nive;
+			productName = Nive;
+			productReference = 6CB1F6C4195C536D00D505BF /* Nive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CB1F6D5195C536D00D505BF /* NiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB1F6E3195C536D00D505BF /* Build configuration list for PBXNativeTarget "NiveTests" */;
+			buildPhases = (
+				6CB1F6D2195C536D00D505BF /* Sources */,
+				6CB1F6D3195C536D00D505BF /* Frameworks */,
+				6CB1F6D4195C536D00D505BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CB1F6D8195C536D00D505BF /* PBXTargetDependency */,
+			);
+			name = NiveTests;
+			productName = NiveTests;
+			productReference = 6CB1F6D6195C536D00D505BF /* NiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CB1F6BC195C536D00D505BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jay Li";
+				TargetAttributes = {
+					6CB1F6C3195C536D00D505BF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					6CB1F6D5195C536D00D505BF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 6CB1F6C3195C536D00D505BF;
+					};
+				};
+			};
+			buildConfigurationList = 6CB1F6BF195C536D00D505BF /* Build configuration list for PBXProject "Nive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CB1F6BB195C536D00D505BF;
+			productRefGroup = 6CB1F6C5195C536D00D505BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CB1F6C3195C536D00D505BF /* Nive */,
+				6CB1F6D5195C536D00D505BF /* NiveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CB1F6C2195C536D00D505BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3F4CB21960E0E100CF1532 /* Main.storyboard in Resources */,
+				6CB1F6D1195C536D00D505BF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB1F6D4195C536D00D505BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F0DB3238AB64296922F6D00 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7EEA14C2C46C457FBD63FECC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CB1F6C0195C536D00D505BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3F4CB81960E79800CF1532 /* JVCommunityViewController.swift in Sources */,
+				6C3F4CBC1960E99B00CF1532 /* JVDetailViewController.swift in Sources */,
+				6C4FEFFF198621D100C03361 /* JiveFactory.swift in Sources */,
+				6C3F4CB41960E36800CF1532 /* JVPersonCell.swift in Sources */,
+				6C7792E7196139CA0030C95F /* JVEditingViewController.swift in Sources */,
+				6CABA7C3197F46FD00E4F1D6 /* JVWebViewController.swift in Sources */,
+				6C3F4CB61960E72D00CF1532 /* JVMasterViewController.swift in Sources */,
+				6C3F4CBA1960E8F300CF1532 /* JVLoginViewController.swift in Sources */,
+				6CB1F6CA195C536D00D505BF /* AppDelegate.swift in Sources */,
+				6CBCC65B196124E30052EBBC /* JVBlogViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB1F6D2195C536D00D505BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB1F6DD195C536D00D505BF /* NiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CB1F6D8195C536D00D505BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CB1F6C3195C536D00D505BF /* Nive */;
+			targetProxy = 6CB1F6D7195C536D00D505BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C3F4CB01960E0E100CF1532 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3F4CB11960E0E100CF1532 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CB1F6DE195C536D00D505BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CB1F6DF195C536D00D505BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CB1F6E1195C536D00D505BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2677A1351122443E84A5C8B2 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Nive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nive/Nive-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CB1F6E2195C536D00D505BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2677A1351122443E84A5C8B2 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Nive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nive/Nive-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6CB1F6E4195C536D00D505BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nive.app/Nive";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		6CB1F6E5195C536D00D505BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nive.app/Nive";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CB1F6BF195C536D00D505BF /* Build configuration list for PBXProject "Nive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB1F6DE195C536D00D505BF /* Debug */,
+				6CB1F6DF195C536D00D505BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB1F6E0195C536D00D505BF /* Build configuration list for PBXNativeTarget "Nive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB1F6E1195C536D00D505BF /* Debug */,
+				6CB1F6E2195C536D00D505BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB1F6E3195C536D00D505BF /* Build configuration list for PBXNativeTarget "NiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB1F6E4195C536D00D505BF /* Debug */,
+				6CB1F6E5195C536D00D505BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CB1F6BC195C536D00D505BF /* Project object */;
+}
