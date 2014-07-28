@@ -18,10 +18,6 @@ class JVCommunityViewController: UIViewController, UITextFieldDelegate{
         
     }
     
-    override func viewDidLoad() {
-        var instanceString: String  = "http://svpos0000064np.nbndc.local/";
-        self.communityURL.text = instanceString
-    }
     func checkForRedirect(version:JivePlatformVersion,
         fromURL targetURL:NSURL,
         factory initialFactory:JVJiveFactory ) {
