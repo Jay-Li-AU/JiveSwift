@@ -1,6 +1,6 @@
 A Jive ios example using Swift Language
 -------------------------------
-The example is based on xcode 6 beta 4. Since xcode is unstable, it may not be able to compile in other versions of xcode. 
+The example is based on xcode 6 beta 4 and Jive iOS SDK(https://github.com/jivesoftware/jive-ios-sdk). Since xcode is unstable, it may not be able to compile in other versions of xcode. 
 
 
 1.Run 'pod install'
